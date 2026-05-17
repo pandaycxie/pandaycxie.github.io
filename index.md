@@ -1,6 +1,6 @@
 # Yichuan Xie
 
-I am a PhD student in Mathematics at The Chinese University of Hong Kong.
+I am a second year PhD student in Mathematics at The Chinese University of Hong Kong.
 
 ## Research Interests
 
