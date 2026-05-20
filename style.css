@@ -104,7 +104,6 @@ main {
 
 .eyebrow,
 .section-kicker,
-.activity-date,
 .timeline-date {
   color: var(--accent-dark);
   font-family: Arial, Helvetica, sans-serif;
@@ -227,7 +226,6 @@ h3 {
 }
 
 .content-card,
-.contact-card,
 .timeline {
   background: var(--surface);
   border: 1px solid var(--line);
@@ -235,13 +233,11 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.content-card,
-.contact-card {
+.content-card {
   padding: 28px;
 }
 
-.content-card > :last-child,
-.contact-card > :last-child {
+.content-card > :last-child {
   margin-bottom: 0;
 }
 
@@ -280,30 +276,14 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
-.timeline-item p,
-.activity-card p {
+.timeline-item p {
   color: var(--muted);
-}
-
-.activity-grid {
-  display: grid;
-  gap: 18px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.activity-card {
-  min-height: 220px;
 }
 
 .quiet-card {
   background: var(--surface-muted);
   border-style: dashed;
   box-shadow: none;
-}
-
-.contact-card {
-  display: grid;
-  gap: 10px;
 }
 
 .site-footer {
@@ -361,9 +341,6 @@ h3 {
     padding: 54px 0;
   }
 
-  .activity-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 520px) {
@@ -399,8 +376,7 @@ h3 {
     padding: 22px;
   }
 
-  .content-card,
-  .contact-card {
+  .content-card {
     padding: 22px;
   }
 }
